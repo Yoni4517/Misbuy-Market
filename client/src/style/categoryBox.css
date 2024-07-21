@@ -1,0 +1,11 @@
+.categoryBox {
+    width: 25vw;
+    height: 40vh;
+    color: white;
+    align-content: end;
+    margin: 1vw;
+}
+
+.categoryBox:hover {
+    color: blue;
+}

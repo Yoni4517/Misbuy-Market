@@ -1,0 +1,32 @@
+#categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.webTitle {
+    animation: slideIn 1s ease-out forwards;
+}
+
+.popularItems{
+    position: sticky;
+    top: 40vh; /* Keeps .item-list 20vh from the top */
+    /* margin-top: 0; Remove the margin-top to prevent extra space */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 999;
+    margin-right: 0vw;
+}

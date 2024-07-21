@@ -1,0 +1,45 @@
+
+.wishItem {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 70vw;
+    border: 2px solid rgb(129, 127, 127);
+    border-radius: 8px;
+    text-decoration: none;
+    /* transition: transform 0.3s ease; */
+    padding: 1vw 1vw;
+    margin: 2vw auto;
+    box-sizing: border-box;
+}
+
+.wishItem:hover {
+    transform: scale(1.005);
+    border: 3px solid #0c0479;
+}
+
+.shortDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 10%;
+}
+
+.shortDescription p{
+    margin: 0;
+    padding: 5px;
+}
+
+.wishItem img{
+    max-width: 15%;
+    height: 90%;
+}
+
+.trashIcon{
+    align-self: flex-start;
+    margin-left: 60%;
+}
+
+.trashIcon:hover {
+    color: rgb(229, 202, 49);
+}

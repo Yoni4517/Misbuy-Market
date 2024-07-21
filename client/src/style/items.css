@@ -1,0 +1,20 @@
+#selectSort {
+    position: fixed;
+    width: 15vw;
+    top: 10vh;
+    right: 1vw;
+    z-index: 1000;
+    background-color: white;
+    padding-top: 5vh;
+}
+
+.item-list {
+    position: sticky;
+    top: 40vh; /* Keeps .item-list 20vh from the top */
+    /* margin-top: 0; Remove the margin-top to prevent extra space */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 999;
+    margin-right: 10vw;
+}
